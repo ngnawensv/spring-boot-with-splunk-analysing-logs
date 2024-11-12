@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "9bd67f1a-12d4-482d-96ab-9cce0e94403a",
+		"name": "spring-boot-with-splunk-analysing-logs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7848965"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/hellologging",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/hellologging",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hellologging"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET --url \"http://localhost:8080/hellologging\""
+			},
+			"response": []
+		}
+	]
+}
