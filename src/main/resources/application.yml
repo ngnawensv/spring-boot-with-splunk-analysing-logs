@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: spring-boot-with-splunk-analysing-logs
+
+logging:
+    level:
+        root: DEBUG
+
+server:
+    tomcat:
+        native:
+            lib: none
